@@ -1,4 +1,4 @@
-const getRandomElement = (min = 0, max = 1, comma = 2) => {
+const getRandomNonInteger = (min = 0, max = 1, comma = 2) => {
   min = Math.ceil(min);
   max = Math.floor(max);
 
@@ -15,7 +15,7 @@ const getRandomElement = (min = 0, max = 1, comma = 2) => {
 };
 
 for (let i = 0; i <= 100; i++) {
-  console.log(getRandomElement(1, 2));
+  console.log(getRandomNonInteger(1, 2));
 }
 
 function getRandomInteger(min = 0, max = 5) {
